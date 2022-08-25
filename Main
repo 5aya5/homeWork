@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Human human = new Human();
+        Player player = new Player();
+        Scanner scanner = new Scanner(System.in);
+
+
+        System.out.println("Name: ");
+        human.setName(scanner.nextLine());
+
+        System.out.println("Age: ");
+        human.setAge(scanner.nextInt());
+
+        System.out.println("Hello " + human.getName() + "!");
+
+    }
+}
