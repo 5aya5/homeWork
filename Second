@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class Second {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Man man = new Man();
+
+        System.out.println("===============================");
+        System.out.println("Name:");
+        String y = scanner.nextLine();
+        man.name = y;
+
+        System.out.println("===============================");
+        System.out.println("Age:");
+        int x = scanner.nextInt();
+        man.age = x;
+
+        System.out.println("===============================");
+        System.out.println("Name: " + man.name);
+        System.out.println("Age: " + man.age);
+        man.happyBirthday();
+
+
+    }
+}
