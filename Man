@@ -1,0 +1,15 @@
+
+public class Man extends Human {
+
+    public String name;
+
+    public int age;
+
+    public void happyBirthday() {
+        System.out.println("===============================");
+        System.out.println("С днём рождения!");
+        age++;
+        System.out.println("Поздравляю ты на год постарел " + age + "!!!");
+        System.out.println("===============================");
+    }
+}
